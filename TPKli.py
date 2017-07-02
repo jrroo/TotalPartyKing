@@ -19,7 +19,7 @@ class TPKli():
         '''
         longest_key = max([len(x.key) for x in menu.items])
         choice = None
-        while not menu.has_key(choice):
+        while choice not in menu:
             for item in menu.items:
                 print('{:{width}} - {}'.format(item.key,
                                                item.desc,
@@ -52,16 +52,17 @@ class TPKli():
             results.append(random.randint(1, d))
         return results
 
-    class Menu():
+    class Menu:
         ''' Holds the definition of a menu for later use '''
         MenuItem = collections.namedtuple('MenuItem',
                                           'desc, key, action, args, kwargs'
                                          )
         def __init__(self, prompt=None):
             ''' init for the menu class '''
-            self.items = [] 
+            self.items = collections.OrderedDict()
             self._next_key = 0
             self.prompt = prompt
+
         def add_item(self, desc, action, key=None, *args, **kwargs):
             ''' Appends and item to the menu list
                 desc: the displayed description
@@ -72,7 +73,7 @@ class TPKli():
             '''
             if not callable(action) and not isinstance(action, Menu):
                 return False
-            if not key is None and self.has_key(key):
+            if key is not None and key in self:
                 return False
             item = self.MenuItem(desc=desc,
                                  key=key or self._get_next_key(),
@@ -80,31 +81,29 @@ class TPKli():
                                  args=args,
                                  kwargs=kwargs,
                                 )
-            self.items.append(item)
+            self.items[key] = item
             return True
 
-        def has_key(self, key):
+        def __contains__(self, key):
             ''' tests if the key exists in our menu '''
-            if key is None:
-                return False
-            return any(key == x.key for x in self.items)
+            return key in self.items
 
-        def get_item(self, key):
-            if key is None:
+        def __getitem__(self, key):
+            return self.items.get(key, None)
+
+        def get(self, key):
+            try:
+                return self[key]
+            except KeyError:
                 return None
-            ret = [item for item in self.items if item.key == key]
-            assert len(ret) == 1, 'Too many/no matching keys'
-            return ret[0]
 
         def choose(self, choice):
-            if self.has_key(choice):
-                item = self.get_item(choice)
-                #item.action(*item.args, **item.kwargs)
+            return self.get(choice)
+            # TODO: Execute action item.action(*item.args, **item.kwargs)
 
         def _get_next_key(self):
             ''' gets next unique key '''
-            while any(self._next_key == x.get('key', None)
-                      for x in self.items):
+            while any(self._next_key == x for x in self.items):
                 self._next_key += 1
             return str(self._next_key)
 
