@@ -1,0 +1,727 @@
+<character>
+    <metadata>
+        <campaign></campaign>
+        <created_data>May 27, 2017</created_data>
+        <player>Unidentified key: 'player'</player>
+        <notes></notes>
+    </metadata>
+    <points>
+        <total>50</total>
+        <attributes>0</attributes>
+        <advantages>32</advantages>
+        <disadvantages>-20</disadvantages>
+        <skills>38</skills>
+        <spells>0</spells>
+        <earned>0</earned>
+        <quirks>0</quirks>
+        <race>0</race>
+    </points>
+    <identity>
+        <name>Ferdinand Bussie</name>
+        <race>Human</race>
+        <title></title>
+        <religion></religion>
+        <gender>Male</gender>
+        <age>17</age>
+        <tl>6</tl>
+        <hand>Right</hand>
+    </identity>
+    <appearance>
+        <height>5' 7&quot;</height>
+        <weight>129 lb</weight>
+        <eyes>Brown</eyes>
+        <hair>Redhead, Curly, Short</hair>
+        <skin>Brown</skin>
+        <size>+0</size>
+    </appearance>
+    <stats>
+        <primary>
+            <st>11</st>
+            <dx>10</dx>
+            <iq>10</iq>
+            <ht>11</ht>
+        </primary>
+        <secondary>
+            <will>10</will>
+            <perception>10</perception>
+            <basic_speed>5.25</basic_speed>
+            <basic_move>5</basic_move>
+            <fp>11</fp>
+            <hp>11</hp>
+            <fright_check>10</fright_check>
+        </secondary>
+        <senses>
+            <hearing>10</hearing>
+            <taste_smell>10</taste_smell>
+            <vision>10</vision>
+            <touch>10</touch>
+        </senses>
+        <damage>
+            <thrust>1d-1</thrust>
+            <swing>1d+1</swing>
+        </damage>
+    </stats>
+    <tracking>
+        <hp>
+            <check>
+                <name>Full</name>
+                <value>11</value>
+            </check>
+            <check>
+                <name>Reeling</name>
+                <value>3</value>
+            </check>
+            <check>
+                <name>Collapse</name>
+                <value>0</value>
+            </check>
+            <check>
+                <name>1st Roll</name>
+                <value>-11</value>
+            </check>
+            <check>
+                <name>2nd Roll</name>
+                <value>-22</value>
+            </check>
+            <check>
+                <name>3rd Roll</name>
+                <value>-33</value>
+            </check>
+            <check>
+                <name>4th Roll</name>
+                <value>-44</value>
+            </check>
+            <check>
+                <name>Dead</name>
+                <value>-55</value>
+            </check>
+        </hp>
+        <fp>
+            <check>
+                <name>Full</name>
+                <value>11</value>
+            </check>
+            <check>
+                <name>Tired</name>
+                <value>3</value>
+            </check>
+            <check>
+                <name>Collapse</name>
+                <value>0</value>
+            </check>
+            <check>
+                <name>Unconscious</name>
+                <value>-11</value>
+            </check>
+        </fp>
+    </tracking>
+    <traits>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Alcohol Tolerance</name>
+            <description></description>
+            <modifiers></modifiers>
+            <points>1</points>
+            <ref>B100</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Alcoholism</name>
+            <description></description>
+            <modifiers>Illegal, -5.</modifiers>
+            <points>-20</points>
+            <ref>B122</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Fit</name>
+            <description>+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)</description>
+            <modifiers></modifiers>
+            <points>5</points>
+            <ref>B55</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Improvised Weapons (Brawling)</name>
+            <description></description>
+            <modifiers></modifiers>
+            <points>1</points>
+            <ref>PU2:6</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Increased Health 1</name>
+            <description></description>
+            <modifiers></modifiers>
+            <points>10</points>
+            <ref>B14</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Increased Strength 1</name>
+            <description></description>
+            <modifiers></modifiers>
+            <points>10</points>
+            <ref>B14</ref>
+        </trait>
+        
+        <trait>
+            <depth>0</depth>
+            <name>Talent (Tough Guy) 1</name>
+            <description></description>
+            <modifiers>Reaction Bonus (Shady characters), +0%.</modifiers>
+            <points>5</points>
+            <ref>B89</ref>
+        </trait>
+        
+    </traits>
+    <skills>
+        
+        <skill>
+            <name>Brawling</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>12</level>
+            <relative_level>DX+2</relative_level>
+            <points>4</points>
+            <ref>B182</ref>
+        </skill>
+        
+        <skill>
+            <name>Carousing</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>13</level>
+            <relative_level>HT+2</relative_level>
+            <points>4</points>
+            <ref>B183</ref>
+        </skill>
+        
+        <skill>
+            <name>Carpentry</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>IQ+0</relative_level>
+            <points>1</points>
+            <ref>B183</ref>
+        </skill>
+        
+        <skill>
+            <name>Climbing</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>DX-1</relative_level>
+            <points>1</points>
+            <ref>B183</ref>
+        </skill>
+        
+        <skill>
+            <name>Cooking</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B185</ref>
+        </skill>
+        
+        <skill>
+            <name>Detect Lies</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>8</level>
+            <relative_level>Per-2</relative_level>
+            <points>1</points>
+            <ref>B187</ref>
+        </skill>
+        
+        <skill>
+            <name>Farming/TL8</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>DX+0</relative_level>
+            <points>2</points>
+            <ref>B194</ref>
+        </skill>
+        
+        <skill>
+            <name>Fast-Talk</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>12</level>
+            <relative_level>IQ+2</relative_level>
+            <points>4</points>
+            <ref>B195</ref>
+        </skill>
+        
+        <skill>
+            <name>Filch</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>DX-1</relative_level>
+            <points>1</points>
+            <ref>B195</ref>
+        </skill>
+        
+        <skill>
+            <name>Fishing</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>Per+0</relative_level>
+            <points>1</points>
+            <ref>B195</ref>
+        </skill>
+        
+        <skill>
+            <name>Forced Entry</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>11</level>
+            <relative_level>DX+1</relative_level>
+            <points>1</points>
+            <ref>B196</ref>
+        </skill>
+        
+        <skill>
+            <name>Gambling</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>IQ+0</relative_level>
+            <points>2</points>
+            <ref>B197</ref>
+        </skill>
+        
+        <skill>
+            <name>Holdout</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B200</ref>
+        </skill>
+        
+        <skill>
+            <name>Intimidation</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>Will+0</relative_level>
+            <points>1</points>
+            <ref>B202</ref>
+        </skill>
+        
+        <skill>
+            <name>Knot-Tying</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>DX+0</relative_level>
+            <points>1</points>
+            <ref>B203</ref>
+        </skill>
+        
+        <skill>
+            <name>Leatherworking</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>DX+0</relative_level>
+            <points>1</points>
+            <ref>B205</ref>
+        </skill>
+        
+        <skill>
+            <name>Lockpicking/TL8</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B206</ref>
+        </skill>
+        
+        <skill>
+            <name>Mechanic/TL8 (Automobile)</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B207</ref>
+        </skill>
+        
+        <skill>
+            <name>Mechanic/TL8 (Diesel Engine)</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B207</ref>
+        </skill>
+        
+        <skill>
+            <name>Mechanic/TL8 (Steam Engine)</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>9</level>
+            <relative_level>IQ-1</relative_level>
+            <points>1</points>
+            <ref>B207</ref>
+        </skill>
+        
+        <skill>
+            <name>Pickpocket</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>8</level>
+            <relative_level>DX-2</relative_level>
+            <points>1</points>
+            <ref>B213</ref>
+        </skill>
+        
+        <skill>
+            <name>Savoir-Faire (Mafia)</name>
+            <description></description>
+            <modifiers>Default: Streetwise - 3</modifiers>
+            <level>10</level>
+            <relative_level>IQ+0</relative_level>
+            <points>1</points>
+            <ref>B218</ref>
+        </skill>
+        
+        <skill>
+            <name>Scrounging</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>Per+0</relative_level>
+            <points>1</points>
+            <ref>B218</ref>
+        </skill>
+        
+        <skill>
+            <name>Search</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>Per+0</relative_level>
+            <points>2</points>
+            <ref>B219</ref>
+        </skill>
+        
+        <skill>
+            <name>Shadowing</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>IQ+0</relative_level>
+            <points>1</points>
+            <ref>B219</ref>
+        </skill>
+        
+        <skill>
+            <name>Streetwise</name>
+            <description></description>
+            <modifiers></modifiers>
+            <level>10</level>
+            <relative_level>IQ+0</relative_level>
+            <points>1</points>
+            <ref>B223</ref>
+        </skill>
+        
+    </skills>
+    <spells>
+        
+    </spells>
+    <equipment>
+        <value>$390.75</value>
+        <weight>17.5 lb</weight>
+        
+        <item>
+            <name>Travel Bag</name>
+            <unit_cost>60</unit_cost>
+            <unit_weight>10 lb</unit_weight>
+            <total_cost>390.75</total_cost>
+            <total_weight>17.5 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT54</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Can Opener</name>
+            <unit_cost>0.5</unit_cost>
+            <unit_weight>0 lb</unit_weight>
+            <total_cost>0.5</total_cost>
+            <total_weight>0 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT33</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Fishing Kit</name>
+            <unit_cost>5</unit_cost>
+            <unit_weight>0 lb</unit_weight>
+            <total_cost>5</total_cost>
+            <total_weight>0 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT58</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Hip Flask</name>
+            <unit_cost>10</unit_cost>
+            <unit_weight>1 lb</unit_weight>
+            <total_cost>30</total_cost>
+            <total_weight>3 lb</total_weight>
+            <quantity>3</quantity>
+            <ref>HT31</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Matches</name>
+            <unit_cost>0.25</unit_cost>
+            <unit_weight>0 lb</unit_weight>
+            <total_cost>0.25</total_cost>
+            <total_weight>0 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT57</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Mini-Tool Kit (Mechanic: Diesel Engine)</name>
+            <unit_cost>200</unit_cost>
+            <unit_weight>4 lb</unit_weight>
+            <total_cost>200</total_cost>
+            <total_weight>4 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT24</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Multi-Function Knife</name>
+            <unit_cost>25</unit_cost>
+            <unit_weight>0 lb</unit_weight>
+            <total_cost>25</total_cost>
+            <total_weight>0 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT26</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Multi-Tool</name>
+            <unit_cost>50</unit_cost>
+            <unit_weight>0.5 lb</unit_weight>
+            <total_cost>50</total_cost>
+            <total_weight>0.5 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT26</ref>
+            <state>E</state>
+        </item>
+        
+        <item>
+            <name>Tobacco Box</name>
+            <unit_cost>20</unit_cost>
+            <unit_weight>0 lb</unit_weight>
+            <total_cost>20</total_cost>
+            <total_weight>0 lb</total_weight>
+            <quantity>1</quantity>
+            <ref>HT31</ref>
+            <state>E</state>
+        </item>
+        
+    </equipment>
+    <encumbrance>
+        
+        <level>
+            <name>&#8226; None (0)</name>
+            <weight>24 lb</weight>
+            <dodge>8</dodge>
+            <move>5</move>
+        </level>
+        
+        <level>
+            <name>Light (1)</name>
+            <weight>48 lb</weight>
+            <dodge>7</dodge>
+            <move>4</move>
+        </level>
+        
+        <level>
+            <name>Medium (2)</name>
+            <weight>72 lb</weight>
+            <dodge>6</dodge>
+            <move>3</move>
+        </level>
+        
+        <level>
+            <name>Heavy (3)</name>
+            <weight>144 lb</weight>
+            <dodge>5</dodge>
+            <move>2</move>
+        </level>
+        
+        <level>
+            <name>X-Heavy (4)</name>
+            <weight>240 lb</weight>
+            <dodge>4</dodge>
+            <move>1</move>
+        </level>
+        
+    </encumbrance>
+    <hit_locations>
+        
+        <hit_location>
+            <name>Eye</name>
+            <dr>0</dr>
+            <penalty>-9</penalty>
+            <roll>-</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Skull</name>
+            <dr>2</dr>
+            <penalty>-7</penalty>
+            <roll>3-4</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Face</name>
+            <dr>0</dr>
+            <penalty>-5</penalty>
+            <roll>5-5</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Right Leg</name>
+            <dr>0</dr>
+            <penalty>-2</penalty>
+            <roll>6-7</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Right Arm</name>
+            <dr>0</dr>
+            <penalty>-2</penalty>
+            <roll>8-8</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Torso</name>
+            <dr>0</dr>
+            <penalty>0</penalty>
+            <roll>9-10</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Groin</name>
+            <dr>0</dr>
+            <penalty>-3</penalty>
+            <roll>11-11</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Left Arm</name>
+            <dr>0</dr>
+            <penalty>-2</penalty>
+            <roll>12-12</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Left Leg</name>
+            <dr>0</dr>
+            <penalty>-2</penalty>
+            <roll>13-14</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Hand</name>
+            <dr>0</dr>
+            <penalty>-4</penalty>
+            <roll>15-15</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Foot</name>
+            <dr>0</dr>
+            <penalty>-4</penalty>
+            <roll>16-16</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Neck</name>
+            <dr>0</dr>
+            <penalty>-5</penalty>
+            <roll>17-18</roll>
+        </hit_location>
+        
+        <hit_location>
+            <name>Vitals</name>
+            <dr>0</dr>
+            <penalty>-3</penalty>
+            <roll>-</roll>
+        </hit_location>
+        
+    </hit_locations>
+    <attacks>
+        <melee>
+            
+            <attack>
+                <description>Natural</description>
+                <level>10</level>
+                <block></block>
+                <damage>1d cr</damage>
+                <parry>No</parry>
+                <reach>C,1</reach>
+                <strength></strength>
+                <usage>Kick</usage>
+            </attack>
+            
+            <attack>
+                <description>Natural</description>
+                <level>10</level>
+                <block></block>
+                <damage>1d+1 cr</damage>
+                <parry>No</parry>
+                <reach>C,1</reach>
+                <strength></strength>
+                <usage>Kick w/Boots</usage>
+            </attack>
+            
+            <attack>
+                <description>Natural</description>
+                <level>12</level>
+                <block></block>
+                <damage>1d-1 cr</damage>
+                <parry>9</parry>
+                <reach>C</reach>
+                <strength></strength>
+                <usage>Punch</usage>
+            </attack>
+            
+        </melee>
+        <ranged>
+            
+        </ranged>
+    </attacks>
+</character>
