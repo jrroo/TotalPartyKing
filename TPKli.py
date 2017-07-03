@@ -91,11 +91,11 @@ class TPKli():
         def __getitem__(self, key):
             return self.items.get(key, None)
 
-        def get(self, key):
+        def get(self, key, default=None):
             try:
                 return self[key]
             except KeyError:
-                return None
+                return default
 
         def choose(self, choice):
             return self.get(choice)
